@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100%;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+    height: 32px;
+    padding-left: 24px;
+}
+.logo_colmar, .logo_academy{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.logo_academy{
+    color: lightgray;
+}
+.logo_colmar{
+    color: gray;
+}
+
+.menu{
+    padding-right: 24px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav{
+    display: flex;
+    align-items: right;
+    list-style: none;
+    text-align: right;
+    float: right;
+    
+}
+
+.nav li{
+    padding-left: 16px;
+}
+
+main{
+    padding-top: 64px;
+    width:100%;
+}
+
+.first-section{
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: rgb(70, 68, 68)
+}
+.first-section img{
+    width: 60%;
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+}
+
+.first-section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.first-section-text h1{
+    font-weight: bold;
+}
+
+.first-section-text button{
+    background-color: rgb(70, 68, 68);
+    color: white;
+    box-sizing: content-box;
+    width: 90%;
+    height: 10%;
+    top:8px;
+    bottom: 8px;
+    border-radius: 20px;
+}
+
+.second-section{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width:100%;
+    color:rgb(70, 68, 68);
+    padding-bottom: 32px;
+
+}
+.second-section-left{
+    width:60%;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-right:24px;
+}
+.second-section-left img{
+    width: 100%;
+}
+.second-section-left h1{
+    font-weight: bolder;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+.second-section-right{
+    width:40%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.orientation, .campus, .guest{
+    display: flex;
+}
+.guest{
+    background-color: lightgray;
+}
+.orientation img, .campus img, .guest img{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.orientation-date, .our-campus, .our-guest{
+    width: 65%;
+    padding: 8px;
+}
+.read_more{
+    color: blue;
+}
+
+.learning{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 32px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.learning h1{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: bold;
+}
+.start_learning{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.start_learning li {
+    margin: 32px;
+    width: 33%;
+}
+
+.software_engineering, .computer_art, .Design, .Data, .Business, .Marketing{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+}
+
+.software_engineering img , .computer_art img, .Design img, .Data img, .Business img, .Marketing img{
+    width: 100%;
+    height: auto;
+}
+.software_engineering h3, .computer_art h3, .Design h3, .Data h3, .Business h3, .Marketing h3{
+    padding-top: 16px;
+    padding-left: 16px;
+}
+.software_engineering p, .computer_art p, .Design p, .Data p, .Business p, .Marketing p{
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.thesis-section{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+    padding-bottom: 32px;
+    color:rgb(70, 68, 68)
+
+}
+.thesis-section-left{
+    width: 60%;
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-right: 24px;
+   
+
+}
+.thesis-section video{
+    width: 100%;
+}
+.thesis-section h1{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+
+
+}
+.thesis-section-right{
+    width:40%;
+    padding-top: 32px;
+}
+.fisma, .now-then{
+    display: flex;
+
+}
+.fisma img, .now-then img{
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+.fisma-text, .now-then-text{
+    width:65%;
+}
+.fisma{
+    background-color: lightgray;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid lightgrey;
+
+
+}
